@@ -1,6 +1,18 @@
 # Git-Project-Control
  Allows you to use the GIT control version system for projects (files / folders / documents) inside Windows Explorer
 
+
+
+
+
+
+
+
+
+
+
+
+
 import os
 import shutil
 import ntsecuritycon    #
@@ -88,8 +100,8 @@ except:
 index = develop_repo.index
 index.add('.')
 
-author = git.Actor("admin", "admin@dcsoyuz.ru")
-committer = git.Actor("admin", "admin@dcsoyuz.ru")
+author = git.Actor("admin", "example@mail.com")
+committer = git.Actor("admin", "example@mail.com")
 
 index.commit("hello", author=author, committer=committer)
 print(develop_repo.remote('origin'))
