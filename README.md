@@ -9,9 +9,9 @@
 
 
 
-import os
-import shutil
-import ntsecuritycon    #
+#import os
+#import shutil
+#import ntsecuritycon    #
 import win32security    #need install pywin32 module
 from distutils.dir_util import copy_tree
 import git
